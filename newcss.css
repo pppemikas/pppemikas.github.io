@@ -1,0 +1,74 @@
+p {
+    color: black;
+  } 
+header{background: rgba(149, 184, 217, 0.5);}
+.bla{background: rgba(202, 230, 255, 0.5);}
+section{background: #F7F3E8;} 
+body{background: rgb(149,184,217);
+    background: linear-gradient(180deg, rgba(149,184,217,1) 14%, rgba(202,230,255,1) 28%, rgba(246,243,232,1) 46%);
+}
+.item{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.cat {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color:rgb(0, 0, 0)
+}
+.abtme {
+    text-indent:25px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+}
+.score{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.awardinfo{
+    padding-left: 30px;
+}
+.line-1 {
+    height: 1px;
+    background: black;
+  }
+.line-2 {
+    height: 1px;
+    background: black;
+  }
+.line-3 {
+    height: 3px;
+    background: black;
+  }
+.school{  
+font-style: italic;
+font-style: bold;
+font-size: 18px;
+color: #000000;
+}
+.gpa{  
+    font-size: 14px;
+    color: #000000
+}
+.arai{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.testname{
+    font-weight: 600;
+    font-size: 19px;
+color: #000000;
+}
+.each{
+    font-size: 14px;
+    font-style: italic;
+    color: #39A6C8; 
+}
+.bye{
+    text-align: center;
+}
